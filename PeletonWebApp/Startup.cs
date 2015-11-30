@@ -1,7 +1,7 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(PeletonWebApp.Startup))]
+[assembly: OwinStartup(typeof(PeletonWebApp.Startup))]
 namespace PeletonWebApp
 {
     public partial class Startup
